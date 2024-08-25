@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("BaiTap01")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+839bb5ece41fcdf833a119e7e41dae1bf6edbc0c")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aab4d08f43a7a90941f1ae66a04af37cd9470cb3")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("BaiTap01")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("BaiTap01")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

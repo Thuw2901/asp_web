@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DffdSBvezOa8gd0L1VAJqBKTjUXs7S/ivAQk+zIcYkE=",
+  "Hash": "hd7gmVsQJyGhi+7abnsAL5N4j4rjKHYdH4jd0/QVJzU=",
   "Source": "BaiTap01",
   "BasePath": "_content/BaiTap01",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\css\\temp.css",
+      "SourceId": "BaiTap01",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\",
+      "BasePath": "_content/BaiTap01",
+      "RelativePath": "css/temp.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\temp.css"
     },
     {
       "Identity": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\favicon.ico",

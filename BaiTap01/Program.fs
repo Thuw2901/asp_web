@@ -28,7 +28,7 @@ module Program =
             .AddControllersWithViews()
             .AddRazorRuntimeCompilation()
 
-        builder.Services.AddRazorPages()
+        builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
         let app = builder.Build()
 

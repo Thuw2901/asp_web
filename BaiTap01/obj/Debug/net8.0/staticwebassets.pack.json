@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\css\\temp.css",
+      "PackagePath": "staticwebassets\\css\\temp.css"
+    },
+    {
       "Id": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
