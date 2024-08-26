@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hd7gmVsQJyGhi+7abnsAL5N4j4rjKHYdH4jd0/QVJzU=",
+  "Hash": "B8y9cgj+J5xzXcYRFcLwuvYPA7KIfiAMKaTM37DeKpI=",
   "Source": "BaiTap01",
   "BasePath": "_content/BaiTap01",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaiTap01.styles.css",
+      "SourceId": "BaiTap01",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/BaiTap01",
+      "RelativePath": "BaiTap01.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaiTap01.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaiTap01.bundle.scp.css",
+      "SourceId": "BaiTap01",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/BaiTap01",
+      "RelativePath": "BaiTap01.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaiTap01.bundle.scp.css"
+    },
     {
       "Identity": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\css\\site.css",
       "SourceId": "BaiTap01",
@@ -34,25 +72,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\css\\temp.css",
-      "SourceId": "BaiTap01",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\",
-      "BasePath": "_content/BaiTap01",
-      "RelativePath": "css/temp.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\temp.css"
     },
     {
       "Identity": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\favicon.ico",

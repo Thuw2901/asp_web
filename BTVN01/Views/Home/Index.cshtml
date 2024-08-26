@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Bảng Cửu Chương";
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <h2 style="color:hotpink">Minnz tập code</h2>
+
+
+
+
+    <h3>Bảng Cửu Chương</h3>
+
+    @for (int i = 2; i <= 9; i++)
+    {
+        <div style="float: left; margin: 10px; padding: 10px; border: 1px solid #ccc;">
+            <h3>Cửu chương @i</h3>
+            <ul>
+                @for (int j = 1; j <= 10; j++)
+                {
+                    <li>@i x @j = @(i * j)</li>
+                }
+            </ul>
+        </div>
+    }
+
+    <div style="clear: both;"></div>
+
+</div>

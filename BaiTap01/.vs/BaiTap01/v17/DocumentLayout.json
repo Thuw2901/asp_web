@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F0F59AB-5E4C-4F8D-AD56-B52F4FE4C846}|BaiTap01.fsproj|c:\\users\\user\\documents\\gibhub\\asp_web.git\\baitap01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F0F59AB-5E4C-4F8D-AD56-B52F4FE4C846}|BaiTap01.fsproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A63F6B7B-D0BD-42EF-BE81-1EDAC32E542E}|BaiTap01.csproj|c:\\users\\user\\documents\\gibhub\\asp_web.git\\baitap01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63F6B7B-D0BD-42EF-BE81-1EDAC32E542E}|BaiTap01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F0F59AB-5E4C-4F8D-AD56-B52F4FE4C846}|BaiTap01.fsproj|c:\\users\\user\\documents\\gibhub\\asp_web.git\\baitap01\\baitap01.fsproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{9F0F59AB-5E4C-4F8D-AD56-B52F4FE4C846}|BaiTap01.fsproj|solutionrelative:baitap01.fsproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F0F59AB-5E4C-4F8D-AD56-B52F4FE4C846}|BaiTap01.fsproj|c:\\users\\user\\documents\\gibhub\\asp_web.git\\baitap01\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{9F0F59AB-5E4C-4F8D-AD56-B52F4FE4C846}|BaiTap01.fsproj|solutionrelative:program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+      "AbsoluteMoniker": "D:0:0:{A63F6B7B-D0BD-42EF-BE81-1EDAC32E542E}|BaiTap01.csproj|c:\\users\\user\\documents\\gibhub\\asp_web.git\\baitap01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A63F6B7B-D0BD-42EF-BE81-1EDAC32E542E}|BaiTap01.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,40 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaiTap01",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\BaiTap01.fsproj",
-              "RelativeDocumentMoniker": "BaiTap01.fsproj",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\BaiTap01.fsproj",
-              "RelativeToolTip": "BaiTap01.fsproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001351|",
-              "WhenOpened": "2024-08-25T17:42:27.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.fs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\Program.fs",
-              "RelativeDocumentMoniker": "Program.fs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\Program.fs",
-              "RelativeToolTip": "Program.fs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-25T17:42:04.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:33:12.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T16:49:47.122Z",
+              "WhenOpened": "2024-08-26T07:32:58.901Z",
               "EditorCaption": ""
             }
           ]

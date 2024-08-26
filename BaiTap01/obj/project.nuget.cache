@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "WeOcxrmYTpg=",
+  "dgSpecHash": "aNJ4ev4noX4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\BaiTap01.fsproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\BaiTap01.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\fsharp.core\\8.0.400\\fsharp.core.8.0.400.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\8.0.8\\microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.8.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",

@@ -1,12 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaiTap01.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BaiTap01.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\css\\temp.css",
-      "PackagePath": "staticwebassets\\css\\temp.css"
+      "Id": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap01\\wwwroot\\favicon.ico",

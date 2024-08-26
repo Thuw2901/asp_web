@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jTgiLI4uiI8mTbT25E7EIi1Z4gZEQ+qu7jMmPqiiP+k=",
+  "Hash": "Rm4J/KaKfpbGdPlorqEHCOraWkLmGrM+h15/aGd2ihY=",
   "Source": "BaiTap02",
   "BasePath": "_content/BaiTap02",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaiTap02.styles.css",
+      "SourceId": "BaiTap02",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/BaiTap02",
+      "RelativePath": "BaiTap02.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaiTap02.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaiTap02.bundle.scp.css",
+      "SourceId": "BaiTap02",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/BaiTap02",
+      "RelativePath": "BaiTap02.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaiTap02.bundle.scp.css"
+    },
     {
       "Identity": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\wwwroot\\css\\site.css",
       "SourceId": "BaiTap02",
