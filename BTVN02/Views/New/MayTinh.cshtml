@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "MayTinh";
+}
+
+<h1>Máy Tính</h1>
+
+
+
+<!-- Hiển thị thông tin kết quả tính toán -->
+@if (!string.IsNullOrEmpty(Model.KetQua))
+{
+    <div class="alert alert-info">
+        <strong>Kết quả:</strong> @Model.KetQua
+    </div>
+}
+
+<!-- Form để nhập giá trị và phép tính -->
+<form asp-action="MayTinh" method="get">
+    <div class="form-group">
+        <label for="a">Số a:</label>
+        <input type="number" id="a" name="a" value="@Model.A" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="b">Số b:</label>
+        <input type="number" id="b" name="b" value="@Model.B" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Phép tính:</label>
+        <div>
+            <input type="radio" id="cong" name="pheptinh" value="cong" />
+            <label for="cong">Cộng</label>
+            <br />
+            <input type="radio" id="tru" name="pheptinh" value="tru" />
+            <label for="tru">Trừ</label>
+            <br />
+            <input type="radio" id="nhan" name="pheptinh" value="nhan" />
+            <label for="nhan">Nhân</label>
+            <br />
+            <input type="radio" id="chia" name="pheptinh" value="chia" />
+            <label for="chia">Chia</label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Tính</button>
+</form>
+
+

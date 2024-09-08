@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaiTap03")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b379704c9ecbdd64f3614639d1f6302813b79627")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33813cc3949d3407156320954ca972351e115399")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaiTap03")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaiTap03")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

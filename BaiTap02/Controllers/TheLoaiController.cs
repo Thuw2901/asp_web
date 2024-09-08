@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 
 namespace BaiTap02.Controllers
 {
@@ -8,5 +9,8 @@ namespace BaiTap02.Controllers
         {
             return View();
         }
+
+        
     }
 }
+

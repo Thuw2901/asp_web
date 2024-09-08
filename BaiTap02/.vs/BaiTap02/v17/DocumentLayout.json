@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\",
+  "WorkspaceRootPath": "D:\\GibHub\\asp_web\\BaiTap02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|c:\\users\\user\\documents\\gibhub\\asp_web.git\\baitap02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|d:\\gibhub\\asp_web\\baitap02\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|c:\\users\\user\\documents\\gibhub\\asp_web.git\\baitap02\\views\\theloai\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|solutionrelative:views\\theloai\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|d:\\gibhub\\asp_web\\baitap02\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|c:\\users\\user\\documents\\gibhub\\asp_web.git\\baitap02\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|d:\\gibhub\\asp_web\\baitap02\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|d:\\gibhub\\asp_web\\baitap02\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA7E5D66-D58A-4767-B11B-A16224B7C38D}|BaiTap02.csproj|solutionrelative:controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:50:07.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\Views\\TheLoai\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\TheLoai\\Index.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\Views\\TheLoai\\Index.cshtml",
-              "RelativeToolTip": "Views\\TheLoai\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap02\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\BaiTap02\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-26T07:49:45.494Z",
+              "WhenOpened": "2024-09-06T08:09:15.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TheLoaiController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\Controllers\\TheLoaiController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TheLoaiController.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\Controllers\\TheLoaiController.cs",
-              "RelativeToolTip": "Controllers\\TheLoaiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap02\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\BaiTap02\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T08:09:13.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap02\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GibHub\\asp_web\\BaiTap02\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:48:34.516Z",
+              "WhenOpened": "2024-09-06T08:00:00.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TheLoaiController.cs",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap02\\Controllers\\TheLoaiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TheLoaiController.cs",
+              "ToolTip": "D:\\GibHub\\asp_web\\BaiTap02\\Controllers\\TheLoaiController.cs",
+              "RelativeToolTip": "Controllers\\TheLoaiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T07:59:37.509Z",
               "EditorCaption": ""
             }
           ]

@@ -5710,11 +5710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\BaiTap02.csproj",
+      "projectUniqueName": "D:\\GibHub\\asp_web\\BaiTap02\\BaiTap02.csproj",
       "projectName": "BaiTap02",
-      "projectPath": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\BaiTap02.csproj",
+      "projectPath": "D:\\GibHub\\asp_web\\BaiTap02\\BaiTap02.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Documents\\GibHub\\asp_web.git\\BaiTap02\\obj\\",
+      "outputPath": "D:\\GibHub\\asp_web\\BaiTap02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
