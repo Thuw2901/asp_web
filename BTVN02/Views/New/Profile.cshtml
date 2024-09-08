@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1>Profile</h1>
+
+<!-- Liên kết trở về trang Index -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- Profile Picture -->
+                <img src="~/image/Min.jpg" style="width:150px" class="img-fluid rounded-circle" alt="Profile Picture">
+                <a href="/Index" class="btn btn-primary mt-3">Back to Index</a>
+            </div>
+            <div class="col-md-8">
+                <h1>Profile Information</h1>
+                <p><strong>Name:</strong> Minnz</p>
+                <p><strong>Age:</strong> 20 Tuổi</p>
+                <p><strong>Occupation:</strong> Sinh Viên Gương Mẫu</p>
+                <p><strong>Hobbies:</strong> Ăn và Ngủ là Nguồn Sống</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

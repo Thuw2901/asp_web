@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\GibHub\\asp_web\\BTVN02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\views\\new\\maytinh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:views\\new\\maytinh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\views\\new\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:views\\new\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\views\\tuan02\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:views\\tuan02\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\controllers\\newcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:controllers\\newcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\models\\maytinhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:models\\maytinhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\views\\actionindex\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:views\\actionindex\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|d:\\gibhub\\asp_web\\btvn02\\views\\new\\maytinh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A172FFDB-F5AD-4A96-A10B-751411F8ED5F}|BTVN02.csproj|solutionrelative:views\\new\\maytinh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,91 +46,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MayTinhViewModel.cs",
-              "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Models\\MayTinhViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\MayTinhViewModel.cs",
-              "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Models\\MayTinhViewModel.cs",
-              "RelativeToolTip": "Models\\MayTinhViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T18:05:34.358Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T19:27:34.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T19:26:54.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewController.cs",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Controllers\\NewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NewController.cs",
+              "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Controllers\\NewController.cs",
+              "RelativeToolTip": "Controllers\\NewController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwCUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T19:22:38.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Views\\Tuan02\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tuan02\\Index.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Views\\Tuan02\\Index.cshtml",
+              "RelativeToolTip": "Views\\Tuan02\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T18:42:33.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Views\\New\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\New\\Profile.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Views\\New\\Profile.cshtml",
+              "RelativeToolTip": "Views\\New\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T18:41:07.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MayTinh.cshtml",
               "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Views\\New\\MayTinh.cshtml",
               "RelativeDocumentMoniker": "Views\\New\\MayTinh.cshtml",
               "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Views\\New\\MayTinh.cshtml",
               "RelativeToolTip": "Views\\New\\MayTinh.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-08T17:57:00.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NewController.cs",
-              "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Controllers\\NewController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NewController.cs",
-              "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Controllers\\NewController.cs",
-              "RelativeToolTip": "Controllers\\NewController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAawBAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:49:59.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:48:41.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Views\\ActionIndex\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ActionIndex\\Index.cshtml",
-              "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Views\\ActionIndex\\Index.cshtml",
-              "RelativeToolTip": "Views\\ActionIndex\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T17:42:30.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-08T17:36:20.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GibHub\\asp_web\\BTVN02\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\GibHub\\asp_web\\BTVN02\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T17:25:42.727Z",
               "EditorCaption": ""

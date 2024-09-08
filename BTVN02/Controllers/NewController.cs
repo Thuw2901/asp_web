@@ -7,10 +7,10 @@ namespace BTVN02.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View(); // trả về view Profile.cshtml
         }
 
-            public IActionResult MayTinh(int a = 0, int b = 0, string pheptinh = "cong")
+        public IActionResult MayTinh(int a = 0, int b = 0, string pheptinh = "cong")
             {
             string ketQua = "";
 
@@ -44,9 +44,16 @@ namespace BTVN02.Controllers
 
             // Chuyển đến view MayTinh
             return View();
+             }
+
+        public IActionResult Profile()
+        {
+            return View();
         }
     }
-        
+
+    
+
 
 }
 

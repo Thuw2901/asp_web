@@ -26,10 +26,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\GibHub\asp_web\BTVN02
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/GibHub/asp_web/BTVN02/Views/ActionIndex/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uSW5kZXhcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/GibHub/asp_web/BTVN02/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +36,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/GibHub/asp_web/BTVN02/Views/New/MayTinh.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3XE1heVRpbmguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GibHub/asp_web/BTVN02/Views/New/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3XFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GibHub/asp_web/BTVN02/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GibHub/asp_web/BTVN02/Views/Shared/Error.cshtml]
