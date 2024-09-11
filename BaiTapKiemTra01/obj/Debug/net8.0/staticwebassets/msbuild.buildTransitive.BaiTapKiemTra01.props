@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\BaiTapKiemTra01.props" />
-</Project>

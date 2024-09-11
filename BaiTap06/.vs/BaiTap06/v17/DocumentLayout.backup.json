@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\GibHub\\asp_web\\BaiTap06\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{94AD36DB-A500-4A60-958F-0CF47D5A9427}|BaiTap06.csproj|d:\\gibhub\\asp_web\\baitap06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94AD36DB-A500-4A60-958F-0CF47D5A9427}|BaiTap06.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94AD36DB-A500-4A60-958F-0CF47D5A9427}|BaiTap06.csproj|d:\\gibhub\\asp_web\\baitap06\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94AD36DB-A500-4A60-958F-0CF47D5A9427}|BaiTap06.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94AD36DB-A500-4A60-958F-0CF47D5A9427}|BaiTap06.csproj|d:\\gibhub\\asp_web\\baitap06\\views\\taikhoan\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94AD36DB-A500-4A60-958F-0CF47D5A9427}|BaiTap06.csproj|solutionrelative:views\\taikhoan\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +46,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\BaiTap06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T12:38:39.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap06\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\BaiTap06\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T11:27:53.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap06\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -46,12 +80,11 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-10T07:13:39.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T07:13:39.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap06\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -59,25 +92,24 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T07:13:20.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T07:13:20.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DangKy.cshtml",
               "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap06\\Views\\TaiKhoan\\DangKy.cshtml",
               "RelativeDocumentMoniker": "Views\\TaiKhoan\\DangKy.cshtml",
               "ToolTip": "D:\\GibHub\\asp_web\\BaiTap06\\Views\\TaiKhoan\\DangKy.cshtml",
               "RelativeToolTip": "Views\\TaiKhoan\\DangKy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-09T06:55:11.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TaiKhoanViewModel.cs",
               "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap06\\Models\\TaiKhoanViewModel.cs",
               "RelativeDocumentMoniker": "Models\\TaiKhoanViewModel.cs",
@@ -85,12 +117,11 @@
               "RelativeToolTip": "Models\\TaiKhoanViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T06:52:07.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T06:52:07.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TaiKhoanController.cs",
               "DocumentMoniker": "D:\\GibHub\\asp_web\\BaiTap06\\Controllers\\TaiKhoanController.cs",
               "RelativeDocumentMoniker": "Controllers\\TaiKhoanController.cs",
@@ -98,8 +129,7 @@
               "RelativeToolTip": "Controllers\\TaiKhoanController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T06:50:40.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T06:50:40.813Z"
             }
           ]
         }
