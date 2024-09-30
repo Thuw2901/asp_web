@@ -2,7 +2,7 @@
 using ProjectA.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ProjectA.Controllers
+namespace ProjectA.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class TheLoaiController : Controller
@@ -43,7 +43,7 @@ namespace ProjectA.Controllers
         }
 
         [HttpGet]
-        public IActionResult Edit(int id)
+        public IActionResult Edit( int id)
         {
             if (id == 0)
             {
@@ -105,19 +105,19 @@ namespace ProjectA.Controllers
         }
 
         [HttpGet]
-        public IActionResult Search(string searchString)
+        public IActionResult Search(String searchString)
         {
-            if (!string.IsNullOrEmpty(searchString))
+            if (!String.IsNullOrEmpty(searchString))
             {
                 //Sử dugj LINQ để tìm kiếm
-                var theloai = _db.TheLoai.Where(tl => tl.Name.Contains(searchString)).ToList();
+                var theloai = _db.TheLoai.Where(tl=>tl.Name.Contains(searchString)).ToList();
 
                 ViewBag.SearchString = searchString;
                 ViewBag.TheLoai = theloai;
             }
             else
             {
-                var theloai = _db.TheLoai.ToList();
+                var theloai =_db.TheLoai.ToList();
 
             }
             return View("Index");//SD lai view Index

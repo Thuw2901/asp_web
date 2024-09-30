@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-ProjectA-c7c98831-bb04-41dc-a401-1b8b97cd373b</UserSecretsId>
+    <UserSecretsId>aspnet-ProjectA-129fe820-e98c-4529-80ba-e5d6c30ed2e8</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,10 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Areas\Admin\Views\" />
-    <Folder Include="Areas\Customer\Controllers\" />
-    <Folder Include="Areas\Customer\Views\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

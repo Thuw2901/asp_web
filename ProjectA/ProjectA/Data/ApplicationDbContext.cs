@@ -1,6 +1,6 @@
-﻿using ProjectA.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ProjectA.Models;
 
 namespace ProjectA.Data
 {

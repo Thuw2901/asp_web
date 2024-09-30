@@ -12,8 +12,8 @@ using ProjectA.Data;
 namespace ProjectA.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240924065111_1")]
-    partial class _1
+    [Migration("20240930190337_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -236,6 +236,7 @@ namespace ProjectA.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
@@ -245,8 +246,9 @@ namespace ProjectA.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
+                    b.Property<string>("Price")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TheLoaiId")
                         .HasColumnType("int");
