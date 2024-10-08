@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "D:\\GibHub\\asp_web\\ProjectA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\areas\\admin\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\areas\\admin\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\areas\\admin\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\areas\\admin\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\areas\\admin\\views\\sanpham\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\areas\\admin\\views\\sanpham\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\models\\myuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\models\\myuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\areas\\customer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\areas\\customer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\areas\\admin\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\areas\\admin\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\areas\\admin\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\areas\\admin\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\areas\\admin\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\areas\\admin\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|d:\\gibhub\\asp_web\\projecta\\projecta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F462530-EBA6-417A-ABA7-C73E6B91563B}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +62,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProjectA\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ProjectA\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T21:13:51.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ProjectA\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ProjectA\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T21:12:33.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProjectA\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
-              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
-              "RelativeToolTip": "ProjectA\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T19:37:00.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SanPhamController.cs",
-              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Controllers\\SanPhamController.cs",
-              "RelativeDocumentMoniker": "ProjectA\\Areas\\Admin\\Controllers\\SanPhamController.cs",
-              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Controllers\\SanPhamController.cs",
-              "RelativeToolTip": "ProjectA\\Areas\\Admin\\Controllers\\SanPhamController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwEgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T19:31:15.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SanPham.cs",
-              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Models\\SanPham.cs",
-              "RelativeDocumentMoniker": "ProjectA\\Models\\SanPham.cs",
-              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Models\\SanPham.cs",
-              "RelativeToolTip": "ProjectA\\Models\\SanPham.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T19:00:03.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "TheLoaiController.cs",
               "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Controllers\\TheLoaiController.cs",
               "RelativeDocumentMoniker": "ProjectA\\Areas\\Admin\\Controllers\\TheLoaiController.cs",
               "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Controllers\\TheLoaiController.cs",
               "RelativeToolTip": "ProjectA\\Areas\\Admin\\Controllers\\TheLoaiController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAwwFUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwv2IAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:22:32.946Z",
+              "WhenOpened": "2024-10-07T11:41:55.814Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Views\\SanPham\\Detail.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Areas\\Admin\\Views\\SanPham\\Detail.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Views\\SanPham\\Detail.cshtml",
+              "RelativeToolTip": "ProjectA\\Areas\\Admin\\Views\\SanPham\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T11:41:52.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Customer\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Areas\\Customer\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Customer\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ProjectA\\Areas\\Customer\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T22:42:49.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
+              "RelativeToolTip": "ProjectA\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T22:42:13.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T22:38:45.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T22:38:43.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "ProjectA\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "ProjectA\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T22:01:32.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T22:38:00.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProjectA\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProjectA\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T22:05:30.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectA\\appsettings.json",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\appsettings.json",
+              "RelativeToolTip": "ProjectA\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-06T21:59:23.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectA\\Program.cs",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Program.cs",
+              "RelativeToolTip": "ProjectA\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T21:58:42.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyUser.cs",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Models\\MyUser.cs",
+              "RelativeDocumentMoniker": "ProjectA\\Models\\MyUser.cs",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Models\\MyUser.cs",
+              "RelativeToolTip": "ProjectA\\Models\\MyUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:58:11.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GibHub\\asp_web\\ProjectA\\ProjectA\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjectA\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T21:13:51.263Z"
             }
           ]
         }

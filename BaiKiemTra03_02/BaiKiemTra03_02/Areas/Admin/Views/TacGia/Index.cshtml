@@ -1,0 +1,57 @@
+﻿@model IEnumerable<BaiKiemTra03_02.Models.TacGia>
+
+<div class="container">
+    <h2>Danh Sách Tác Giả</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tên Tác Giả</th>
+                <th>Quốc Tịch</th>
+                <th>Năm Sinh</th>
+                <td>Chức năng</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tacgia in Model)
+            {
+                <tr>
+                    <td>@tacgia.TenTacGia</td>
+                    <td>@tacgia.QuocTich</td>
+                    <td>@tacgia.NamSinh</td>
+                    <td>
+                        <a asp-action="Upsert" asp-route-id="@tacgia.Id">Edit</a> |
+                        <a asp-action="Detail" asp-route-id="@tacgia.Id">Detail</a> |
+                        <a class="text-danger" onclick="confirmDelete(@tacgia.Id, $(this))">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="TacGia" asp-action="Upsert" class="btn btn-primary">Thêm mới</a>
+</div>
+
+<script>
+    function confirmDelete(id, row) {
+        if (confirm("Bạn có chắc muốn xóa?")) {
+            xoa(id, row);
+        }
+    }
+
+    function xoa(id, row) {
+        $.ajax({
+            url: `/Admin/TacGia/Delete`,
+            type: 'POST',
+            data: { id: id },
+            success: function (data) {
+                if (data.success) {
+                    row.closest("tr").remove();
+                } else {
+                    alert(data.message);
+                }
+            },
+            error: function (xhr, status, error) {
+                alert("Xóa thất bại: " + error);
+            }
+        });
+    }
+</script>

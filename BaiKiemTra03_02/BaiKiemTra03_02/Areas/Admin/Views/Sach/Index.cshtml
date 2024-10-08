@@ -1,0 +1,59 @@
+﻿@model IEnumerable<BaiKiemTra03_02.Models.Sach>
+
+<div class="container">
+    <h2>Danh Sách Sách</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tiêu Đề</th>
+                <th>Năm Xuất Bản</th>
+                <th>Tác Giả</th>
+                <th>Thể Loại</th>
+                <td>Chức năng</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var sach in Model)
+            {
+                <tr>
+                    <td>@sach.TieuDe</td>
+                    <td>@sach.NamXuatBan</td>
+                    <td>@sach.TacGia.TenTacGia</td>
+                    <td>@sach.TheLoai.TenTheLoai</td>
+                    <td>
+                        <a asp-action="Upsert" asp-route-id="@sach.Id">Edit</a> |
+                        <a asp-action="Detail" asp-route-id="@sach.Id">Detail</a> |
+                        <a class="text-danger" onclick="confirmDelete(@sach.Id, $(this))">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="Sach" asp-action="Upsert" class="btn btn-primary">Thêm mới</a>
+</div>
+
+<script>
+    function confirmDelete(id, row) {
+        if (confirm("Bạn có chắc muốn xóa?")) {
+            xoa(id, row);
+        }
+    }
+
+    function xoa(id, row) {
+        $.ajax({
+            url: `/Admin/Sach/Delete`,
+            type: 'POST',
+            data: { id: id },
+            success: function (data) {
+                if (data.success) {
+                    row.closest("tr").remove();
+                } else {
+                    alert(data.message);
+                }
+            },
+            error: function (xhr, status, error) {
+                alert("Xóa thất bại: " + error);
+            }
+        });
+    }
+</script>

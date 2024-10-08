@@ -61,6 +61,19 @@ namespace ProjectA.Controllers
             }
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Detail(int id)
+        {
+            if (id == 0)
+            {
+                return NotFound();
+            }
+            var sanpham = _db.SanPham.Find(id);
+            return View(sanpham);
+        }
+
+
         [HttpPost]
         public IActionResult Delete(int id)
         {

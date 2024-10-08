@@ -1,0 +1,30 @@
+﻿@model BaiKiemTra03_02.Models.TacGia
+
+<div class="container">
+    <h3>@(Model.Id == 0 ? "Thêm Tác Giả" : "Cập Nhật Tác Giả")</h3>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <form method="post" asp-action="Upsert">
+        <div class="form-group">
+            <label asp-for="TenTacGia">Tên Tác Giả</label>
+            <input asp-for="TenTacGia" class="form-control" />
+            <span asp-validation-for="TenTacGia" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="QuocTich">Quốc Tịch</label>
+            <input asp-for="QuocTich" class="form-control" />
+            <span asp-validation-for="QuocTich" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NamSinh">Năm Sinh</label>
+            <input asp-for="NamSinh" type="number" class="form-control" />
+            <span asp-validation-for="NamSinh" class="text-danger"></span>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">@(Model.Id == 0 ? "Tạo mới" : "Cập Nhật")</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

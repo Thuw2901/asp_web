@@ -1,0 +1,31 @@
+﻿@model SanPham
+
+<div>
+    <h2>Chi tiết sản phẩm</h2>
+    <p>
+        <b>ID:</b> @Model.Id
+    </p>
+    <p>
+        <b>Tên sản phẩm:</b> @Model.Name
+    </p>
+    <p>
+        <b>Mô tả:</b> @Model.Description
+    </p>
+    <p>
+        <b>Giá:</b> @Model.Price VND
+    </p>
+    <p>
+        <b>Thể loại:</b> @Model.TheLoai.Name
+    </p>
+    <p>
+        <b>Hình ảnh:</b>
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" alt="@Model.Name" style="width:150px;height:150px;" />
+        }
+        else
+        {
+            <span>Không có hình ảnh</span>
+        }
+    </p>
+</div>
