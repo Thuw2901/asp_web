@@ -29,8 +29,12 @@
     @foreach (var item in Model)
     {
         <div class="col-3">
+            <!--bọc thẻ img-->
             <div class="card" style="width: 18rem;">
+                <a asp-action="Details" asp-route-id="@item.Id">
                 <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name">
+                </a>
+
                 <div class="card-body">
                     <h5 class="card-title">@item.Name</h5>
                     <h6 class="card-title">@item.Price</h6>

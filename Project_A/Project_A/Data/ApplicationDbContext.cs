@@ -14,5 +14,6 @@ namespace Project_A.Data
         public DbSet<TheLoai> TheLoai { get; set; }
         public DbSet<SanPham> SanPham { get; set; }
         public DbSet<ApplicationUser> ApplicationUser { get; set; }
+        //sau đó add 1 migration mới và update-database
     }
 }

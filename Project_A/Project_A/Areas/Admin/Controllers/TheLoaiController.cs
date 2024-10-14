@@ -12,7 +12,7 @@ namespace Project_A.Areas.Admin.Controllers
         {
             _db = db;
         }
-        public IActionResult Index()
+        public IActionResult Index()//mõi lần tạo một controller phải, add view, và tạo một model để thêm biến cho nó
         {
             var theLoai = _db.TheLoai.ToList();
             ViewBag.TheLoai = theLoai;

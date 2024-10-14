@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project_A.Data;
 using Project_A.Models;
@@ -34,5 +34,15 @@ namespace Project_A.Areas.Customer.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            SanPham sanpham = new SanPham();
+            sanpham = _db.SanPham.Include(sp=>sp.TheLoai).FirstOrDefault(sp => sp.Id == id);
+
+            return View(sanpham);
+
+        }//sau đó sang trang index.cshtml của customer
+        //quay lại add view và lấy code từ thầy
     }
 }

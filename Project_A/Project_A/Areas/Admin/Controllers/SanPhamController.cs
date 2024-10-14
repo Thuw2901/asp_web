@@ -19,6 +19,7 @@ namespace Project_A.Controllers
             IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").ToList();
             return View(sanpham);
         }
+        // bài buổi 15:lấy đoạn này copy sang homecontroller
         [HttpGet]
         public IActionResult Upsert(int id)
         {
@@ -40,7 +41,7 @@ namespace Project_A.Controllers
                 sanpham = _db.SanPham.Include("TheLoai").FirstOrDefault(sp => sp.Id == id);
                 return View(sanpham);
             }
-        }
+        }//kết
         [HttpPost]
         public IActionResult Upsert(SanPham sanpham)
         {

@@ -32,8 +32,12 @@
         </nav>
     </header>
     <div class="container">
+
+        <!--phần thêm đường dẫn đến trang Đăng kí tk mới, bước đầu sau khi tạo mới một Identity-->
         <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-success">Register</a>
         <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-success">Login</a>
+        <!--kết-->
+
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

@@ -15,9 +15,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Project_A.Models;
 
 namespace Project_A.Areas.Identity.Pages.Account
 {
@@ -30,6 +33,7 @@ namespace Project_A.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<IdentityUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        //thêm 
         private readonly RoleManager<IdentityRole> _roleManager;
 
         public RegisterModel(
@@ -38,6 +42,7 @@ namespace Project_A.Areas.Identity.Pages.Account
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender,
+            //thêm
             RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
@@ -46,6 +51,7 @@ namespace Project_A.Areas.Identity.Pages.Account
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            //thêm
             _roleManager = roleManager;
         }
 
@@ -101,18 +107,40 @@ namespace Project_A.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+
+            //thêm các trường cho trang đăng kí
+            //bước này làm ngay sau bước chạy code để add 2 role 
+            //sau chỉnh ở OnGetAsync
+            public string Name { get; set; }
+            public string? Address { get; set; }
+            public string? Role { get; set; }
+            [ValidateNever]
+            public IEnumerable<SelectListItem> RoleList { get; set; }//kết
         }
 
 
         public async Task OnGetAsync(string returnUrl = null)
         {
+            //thêm 2 role user và admin
             if(!_roleManager.RoleExistsAsync("Admin").GetAwaiter().GetResult())
             {
                 _roleManager.CreateAsync(new IdentityRole("Admin")).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole("User")).GetAwaiter().GetResult();
-            }
+            }//kết
+            //bước này chạy lại code mà lỗi do chưa logout ra gamil đã tạo trong trang 
+            //hãy vào sql và vào AspNetRoles, AspNetUserRoles, AspNetUsers để check xoá hết dữ liệu trong đó đi và chạy lại code
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+            //bước tiếp sau lệnh thêm trường cho trang đăng kí
+            //tiếp đến sang trang Register.cshtml để chỉnh trang đăng kí
+            Input = new InputModel()
+            {
+                RoleList = _roleManager.Roles.Select(x => new SelectListItem
+                {
+                    Text = x.Name,
+                    Value = x.Name
+                }),
+            };
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
@@ -125,10 +153,24 @@ namespace Project_A.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                //thêm
+                user.Name = Input.Name;
+                user.Address = Input.Address;//kết
+                //đoạn này sẽ có lỗi kéo xuống phía dưới một chút sẽ có một ghi chú thay đổi code có đánh dấu * , thay 4 vtri
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
                 {
+                    //thêm ngay sau bước trên
+                    if(Input.Role == null)
+                    {
+                        await _userManager.AddToRoleAsync(user, "User");
+                    }
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, Input.Role);
+                    }//kết
+
                     _logger.LogInformation("User created a new account with password.");
 
                     var userId = await _userManager.GetUserIdAsync(user);
@@ -163,16 +205,17 @@ namespace Project_A.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private IdentityUser CreateUser()
+        //chú ý thay Identity thành model mình tạo *
+        private ApplicationUser CreateUser()
         {
             try
             {
-                return Activator.CreateInstance<IdentityUser>();
+                return Activator.CreateInstance<ApplicationUser>();
             }
             catch
             {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
+                throw new InvalidOperationException($"Can't create an instance of '{nameof(ApplicationUser)}'. " +
+                    $"Ensure that '{nameof(ApplicationUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
                     $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
             }
         }

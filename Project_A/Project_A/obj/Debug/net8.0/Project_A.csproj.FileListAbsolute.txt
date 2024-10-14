@@ -106,8 +106,6 @@ D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\refs\Microsoft.Extensions
 D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
 D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
 D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
 D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
@@ -589,3 +587,5 @@ D:\GibHub\asp_web\Project_A\Project_A\obj\Debug\net8.0\refint\Project_A.dll
 D:\GibHub\asp_web\Project_A\Project_A\obj\Debug\net8.0\Project_A.pdb
 D:\GibHub\asp_web\Project_A\Project_A\obj\Debug\net8.0\Project_A.genruntimeconfig.cache
 D:\GibHub\asp_web\Project_A\Project_A\obj\Debug\net8.0\ref\Project_A.dll
+D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\GibHub\asp_web\Project_A\Project_A\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
