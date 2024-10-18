@@ -7,12 +7,41 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Project_A.styles.css" asp-append-version="true" />
+
+
+    <!-- Thêm style trực tiếp trong head -->
+    <style>
+        /* Đổi phông nền (background) của thanh điều hướng thành hồng nhạt */
+        .navbar {
+            background-color: #ffccd5 !important; /* Màu hồng nhạt */
+        }
+
+            /* Đổi màu chữ của các liên kết thành đỏ */
+            .navbar .nav-link {
+                color: #ff0000 !important; /* Màu đỏ */
+            }
+
+                /* Thay đổi màu chữ khi người dùng rê chuột qua các liên kết */
+                .navbar .nav-link:hover {
+                    color: #cc0000 !important; /* Màu đỏ đậm hơn khi rê chuột qua */
+                }
+
+        /* Nút toggler cho thiết bị di động */
+        .navbar-toggler {
+            background-color: #ffffff; /* Màu trắng cho nút toggler */
+        }
+    </style>
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Project_A</a>
+                <!-- Logo -->
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/logo.png" alt="Logo" style="height: 40px;" class="me-2">
+                    Project_A
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,29 +54,64 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="TheLoai">Thể Loại</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="SanPham">Sản Phẩm</a>
+                        </li>
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
 
-        <!--phần thêm đường dẫn đến trang Đăng kí tk mới, bước đầu sau khi tạo mới một Identity-->
+    <!-- Main Content Area -->
+    <div class="container">
+        <!-- Link Register and Login -->
         <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-success">Register</a>
         <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-success">Login</a>
-        <!--kết-->
-
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
         <div class="container">
-            &copy; 2024 - Project_A - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row">
+                <!-- Logo and Company Info -->
+                <div class="col-md-4">
+                    <h5>Project_A</h5>
+                    <img src="~/images/logo.png" alt="Logo" style="height: 50px;" class="mb-2">
+                    <p>We offer the best products for your needs.</p>
+                </div>
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="fas fa-phone-alt"></i> Phone: +1 234 567 890</p>
+                    <p><i class="fas fa-envelope"></i> Email: 1822041768@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: 123 Biên Hoà, Đồng Nai</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">About</a></li>
+                        <li><a href="#" class="text-white">Services</a></li>
+                        <li><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>&copy; 2024 - Project_A - Minnz Tập Code</p>
+            </div>
         </div>
     </footer>
+
+    <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

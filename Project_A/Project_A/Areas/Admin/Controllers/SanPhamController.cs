@@ -64,15 +64,24 @@ namespace Project_A.Controllers
         }
 
         [HttpGet]
-        public IActionResult Detail(int id)
+        public IActionResult Details(int id)
         {
             if (id == 0)
             {
                 return NotFound();
             }
-            var sanpham = _db.SanPham.Find(id);
+
+            var sanpham = _db.SanPham.Include(sp => sp.TheLoai).FirstOrDefault(sp => sp.Id == id);
+
+            if (sanpham == null)
+            {
+                return NotFound();
+            }
+
             return View(sanpham);
         }
+
+
 
 
         [HttpPost]
