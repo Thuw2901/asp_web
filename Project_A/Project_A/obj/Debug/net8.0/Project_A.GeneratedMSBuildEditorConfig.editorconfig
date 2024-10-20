@@ -26,6 +26,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\GibHub\asp_web\Project_A\Project_A
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/GibHub/asp_web/Project_A/Project_A/Areas/Admin/Views/Admin/ChinhSach.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ2hpbmhTYWNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GibHub/asp_web/Project_A/Project_A/Areas/Admin/Views/Admin/GioiThieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cR2lvaVRoaWV1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GibHub/asp_web/Project_A/Project_A/Areas/Admin/Views/Admin/RiengTu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cUmllbmdUdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GibHub/asp_web/Project_A/Project_A/Areas/Admin/Views/Admin/TinTuc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cVGluVHVjLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GibHub/asp_web/Project_A/Project_A/Areas/Admin/Views/Admin/TinTuc1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cVGluVHVjMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GibHub/asp_web/Project_A/Project_A/Areas/Admin/Views/Contact/ThankYou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdFxUaGFua1lvdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GibHub/asp_web/Project_A/Project_A/Areas/Admin/Views/SanPham/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2FuUGhhbVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,8 +98,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GibHub/asp_web/Project_A/Project_A/Areas/Customer/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/GibHub/asp_web/Project_A/Project_A/Areas/Customer/Views/Home/LienHe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxMaWVuSGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GibHub/asp_web/Project_A/Project_A/Areas/Customer/Views/_ViewImports.cshtml]

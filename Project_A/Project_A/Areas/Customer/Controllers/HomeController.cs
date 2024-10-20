@@ -24,7 +24,7 @@ namespace Project_A.Areas.Customer.Controllers
             return View(sanpham);
         }
 
-        public IActionResult Privacy()
+        public IActionResult LienHe()
         {
             return View();
         }

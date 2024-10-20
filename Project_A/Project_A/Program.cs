@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Project_A.Data;
 
@@ -10,7 +10,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-//Thay ??i services AddDefaultIdentity th�nh AddIdentity
+//Thay ??i services AddDefaultIdentity thành AddIdentity
 
 //builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
 // .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -57,6 +57,23 @@ app.MapAreaControllerRoute(
     pattern: "Admin/{controller=Home}/{action=Index}/{id?}");
 
 app.MapRazorPages();
+
+//thêm
+app.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+
+// Đảm bảo route cho vùng
+app.MapAreaControllerRoute(
+    name: "admin",
+    areaName: "Admin",
+    pattern: "Admin/{controller=Home}/{action=Index}/{id?}");
+
+app.MapAreaControllerRoute(
+    name: "customer",
+    areaName: "Customer",
+    pattern: "Customer/{controller=Home}/{action=Index}/{id?}");
+//kết
 
 app.Run();
 

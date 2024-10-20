@@ -49,16 +49,29 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><strong>Trang Chủ</strong></a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="TheLoai"><strong>Thể Loại</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="SanPham"><strong>Sản Phẩm</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="TheLoai">Thể Loại</a>
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="Admin" asp-action="GioiThieu"><strong>Giới Thiệu</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="SanPham">Sản Phẩm</a>
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="Admin" asp-action="TinTuc"><strong>Tin Tức</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="Admin" asp-action="ChinhSach"><strong>Chính Sách Mua Hàng</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="Admin" asp-action="RiengTu"><strong>Chính Sách Quyền Riêng Tư</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="LienHe"><strong>Liên Hệ</strong></a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
@@ -70,8 +83,8 @@
     <!-- Main Content Area -->
     <div class="container">
         <!-- Link Register and Login -->
-        <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-success">Register</a>
-        <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-success">Login</a>
+        <!--<a asp-area="Identity" asp-page="/Account/Register" class="btn btn-success">Register</a>
+        <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-success">Login</a>-->
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -98,9 +111,9 @@
                 <div class="col-md-4">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Home</a></li>
-                        <li><a href="#" class="text-white">About</a></li>
-                        <li><a href="#" class="text-white">Services</a></li>
+                        <li><a href="~/Customer/Home/Index" class="text-white">Home</a></li>
+                        <li><a href="~/Admin/Admin/GioiThieu" class="text-white">About</a></li>
+                        <li><a href="~/Admin/Admin/ChinhSach" class="text-white">Services</a></li>
                         <li><a href="#" class="text-white">Contact</a></li>
                     </ul>
                 </div>

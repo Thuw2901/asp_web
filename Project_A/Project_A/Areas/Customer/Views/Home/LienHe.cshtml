@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Liên Hệ";
+}
+
+<div style="background-image: url('/images/background-riengtu.jpg'); background-size: cover; background-position: center; padding: 50px;">
+    <div class="container" style="background-color: rgba(255, 255, 255, 0.9); padding: 40px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+        <h1 style="color: #ff1493; font-family: 'Arial', sans-serif; font-weight: bold; font-size: 3.5em; text-shadow: 2px 2px 5px rgba(0,0,0,0.3); text-align: center;">
+            Liên Hệ Với Chúng Tôi
+        </h1>
+
+        <p style="font-size: 1.5em; color: #333; line-height: 1.8; text-align: center; margin-top: 20px;">
+            Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn. Dưới đây là các thông tin liên hệ với Shop Min.
+        </p>
+
+        <div class="mt-4" style="text-align: center;">
+            <div class="row">
+                <div class="col-md-4">
+                    <div style="font-size: 2em; color: #d35400;">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3 style="color: #2980b9;">Điện Thoại</h3>
+                    <p style="font-size: 1.2em; color: #555;">+1 234 567 890</p>
+                </div>
+                <div class="col-md-4">
+                    <div style="font-size: 2em; color: #d35400;">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 style="color: #2980b9;">Email</h3>
+                    <p style="font-size: 1.2em; color: #555;">1822041768@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                    <div style="font-size: 2em; color: #d35400;">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 style="color: #2980b9;">Địa Chỉ</h3>
+                    <p style="font-size: 1.2em; color: #555;">123 Biên Hoà, Đồng Nai</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 style="color: #d35400; font-family: 'Arial', sans-serif; font-weight: bold; font-size: 2.5em; margin-top: 30px; text-align: center;">
+            Hoặc Gửi Tin Nhắn
+        </h2>
+
+        <form method="post" action="~/Admin/Contact/ThankYou" style="margin-top: 20px;">
+            <div class="mb-3">
+                <label for="name" class="form-label">Tên của bạn</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email của bạn</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Tin nhắn của bạn</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Gửi</button>
+        </form>
+    </div>
+</div>
