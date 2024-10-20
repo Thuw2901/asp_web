@@ -44,5 +44,14 @@ namespace Project_A.Areas.Customer.Controllers
 
         }//sau đó sang trang index.cshtml của customer
         //quay lại add view và lấy code từ thầy
+
+        [HttpGet]
+        public IActionResult FilterByTheLoai(int id)
+        {
+            IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai")
+                                                      .Where(sp=>sp.TheLoai.Id==id)
+                                                      .ToList();
+            return View("Index",sanpham);
+        }
     }
 }
